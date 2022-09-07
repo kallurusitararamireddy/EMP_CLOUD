@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EmpCloud Automation Suite">
+
+<parameter name="testng.metrics.report.logo" value ="https://dev.empcloud.com/imgs/logo.png"/>
+	<parameter name="testng.metrics.report.name" value = "EmpCloud_Automation_Report.html"/>
+	 <parameter name="testng.metrics.report.appendTimestamp" value = "True"/> 
+	
+	<listeners>
+      <listener class-name="com.cloud.qa.util.TestStatusListener"/>
+    </listeners>
+	<test name="EmpCloud Test">
+    <classes>
+        <class name="com.cloud.testcases.SignupTest"/> 
+       <class name="com.cloud.testcases.EmpCloud_Login_Test"/> 
+       
+         
+         
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

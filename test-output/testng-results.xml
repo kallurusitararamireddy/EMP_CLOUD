@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<B><font color = 'orange'>Username .</font></B> Entered User ID]]>
+    </line>
+    <line>
+      <![CDATA[<B><font color = 'orange'>Password .</font></B> Entered Password]]>
+    </line>
+    <line>
+      <![CDATA[<B><font color = 'orange'> ShowPassword -</font> Show Password is Dispalyed and Clicked On show Password Button]]>
+    </line>
+    <line>
+      <![CDATA[<B><font color = 'orange'>Rememberme .</font></B> Clicked On  Rememberme CheckBox]]>
+    </line>
+    <line>
+      <![CDATA[<B><font color = 'orange'>Sign In Button .</font></B> Clicked on Submit Button]]>
+    </line>
+    <line>
+      <![CDATA[<B><font color = 'orange'> Step1 -</font> Logged into EmpCloud Web Application]]>
+    </line>
+    <line>
+      <![CDATA[<B><font color = 'orange'> Step2 -</font> clicked on Workobservability Page]]>
+    </line>
+    <line>
+      <![CDATA[<B><font color = 'orange'> Step3 -</font> clicked on OnboardEmployees Page]]>
+    </line>
+    <line>
+      <![CDATA[<B><font color = 'orange'> Step4 -</font> sent data into Empid one ]]>
+    </line>
+    <line>
+      <![CDATA[<B><font color = 'orange'> Step5 -</font> sent data into Employee_one_WorkEmail ]]>
+    </line>
+    <line>
+      <![CDATA[<B><font color = 'orange'> Step6 -</font> sent data into Employee_one_FirstName ]]>
+    </line>
+    <line>
+      <![CDATA[<B><font color = 'orange'> Step7 -</font> sent data into Employee_one_LastName ]]>
+    </line>
+    <line>
+      <![CDATA[<B><font color = 'orange'> Step8 -</font> Clicked on NextButton ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-06T12:51:45 IST" name="Default suite" finished-at="2022-09-06T12:52:51 IST" duration-ms="65654">
+    <groups>
+    </groups>
+    <test started-at="2022-09-06T12:51:45 IST" name="Default test" finished-at="2022-09-06T12:52:51 IST" duration-ms="65654">
+      <class name="com.cloud.testcases.Empcloud_Onboard_Test">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.cloud.testcases.Empcloud_Onboard_Test@503d687a]" started-at="2022-09-06T12:51:45 IST" name="beforeSuite" finished-at="2022-09-06T12:51:45 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.cloud.testcases.Empcloud_Onboard_Test@503d687a]" started-at="2022-09-06T12:51:45 IST" name="initialization" finished-at="2022-09-06T12:51:51 IST" duration-ms="6063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cloud.testcases.Empcloud_Onboard_Test@503d687a]" started-at="2022-09-06T12:51:51 IST" name="setUp" finished-at="2022-09-06T12:52:02 IST" duration-ms="10514" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<B><font color = 'orange'>Username .</font></B> Entered User ID]]>
+            </line>
+            <line>
+              <![CDATA[<B><font color = 'orange'>Password .</font></B> Entered Password]]>
+            </line>
+            <line>
+              <![CDATA[<B><font color = 'orange'> ShowPassword -</font> Show Password is Dispalyed and Clicked On show Password Button]]>
+            </line>
+            <line>
+              <![CDATA[<B><font color = 'orange'>Rememberme .</font></B> Clicked On  Rememberme CheckBox]]>
+            </line>
+            <line>
+              <![CDATA[<B><font color = 'orange'>Sign In Button .</font></B> Clicked on Submit Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="EmpCloud_OnboardEmployees_page()[pri:0, instance:com.cloud.testcases.Empcloud_Onboard_Test@503d687a]" started-at="2022-09-06T12:52:02 IST" name="EmpCloud_OnboardEmployees_page" finished-at="2022-09-06T12:52:50 IST" duration-ms="48678" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<B><font color = 'orange'> Step1 -</font> Logged into EmpCloud Web Application]]>
+            </line>
+            <line>
+              <![CDATA[<B><font color = 'orange'> Step2 -</font> clicked on Workobservability Page]]>
+            </line>
+            <line>
+              <![CDATA[<B><font color = 'orange'> Step3 -</font> clicked on OnboardEmployees Page]]>
+            </line>
+            <line>
+              <![CDATA[<B><font color = 'orange'> Step4 -</font> sent data into Empid one ]]>
+            </line>
+            <line>
+              <![CDATA[<B><font color = 'orange'> Step5 -</font> sent data into Employee_one_WorkEmail ]]>
+            </line>
+            <line>
+              <![CDATA[<B><font color = 'orange'> Step6 -</font> sent data into Employee_one_FirstName ]]>
+            </line>
+            <line>
+              <![CDATA[<B><font color = 'orange'> Step7 -</font> sent data into Employee_one_LastName ]]>
+            </line>
+            <line>
+              <![CDATA[<B><font color = 'orange'> Step8 -</font> Clicked on NextButton ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EmpCloud_OnboardEmployees_page -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.cloud.testcases.Empcloud_Onboard_Test@503d687a]" started-at="2022-09-06T12:52:50 IST" name="tearDown" finished-at="2022-09-06T12:52:51 IST" duration-ms="340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EmpCloud_OnboardEmployees_page status=SUCCESS method=Empcloud_Onboard_Test.EmpCloud_OnboardEmployees_page()[pri:0, instance:com.cloud.testcases.Empcloud_Onboard_Test@503d687a] output=<B><font color = 'orange'> Step1 -</font> Logged into EmpCloud Web Application]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cloud.testcases.Empcloud_Onboard_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
